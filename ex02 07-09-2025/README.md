@@ -1,41 +1,37 @@
-# FullStack Academy - UNINASSAU
+# Exercício 02 - Django + Bootstrap
 
-Repositório criado para armazenar os exercícios e projetos desenvolvidos durante a disciplina de **Full Stack Development (UNINASSAU)**.
-
-Aqui você encontrará a evolução dos estudos em **Frontend (HTML, CSS, JavaScript, Bootstrap)** e **Backend (Python, Django)**.
-
----
-
-## 📂 Estrutura de Exercícios
-
-- **ex01 31-08-2025** → Telas de autenticação e páginas de erro com Django + Bootstrap  
-  - Login  
-  - Logout  
-  - Recuperar senha  
-  - Alterar senha  
-  - Cadastro  
-  - Perfil  
-  - Home  
-  - Página de erro 404 (não encontrada)  
-  - Página de erro 403 (não permitida)  
-  - Página de erro 500 (erro interno no servidor)  
-
-- **ex02 07-09-2025** → CRUD simples com Django + Bootstrap  
-  - Modelo `Pessoa` (Nome, CPF, E-mail, Telefone, Data de Nascimento, RG, Endereço, Bairro)  
-  - Registro no Admin  
-  - Tela de login (reaproveitada do ex01)  
-  - Listagem de pessoas no template com Bootstrap  
+📅 **Entrega:** 07/09/2025 até às 23h59  
+📚 Baseado nas aulas 5, 6 e 7 do curso de Django.
 
 ---
 
-## 🚀 Tecnologias utilizadas
-- Python 3.x  
-- Django  
-- Bootstrap  
-- HTML, CSS e JavaScript  
-- Git e GitHub  
+## 📌 Descrição
+O objetivo deste exercício foi criar uma aplicação simples em **Django**, com uso de **Bootstrap** para o frontend.  
+
+A aplicação implementa o cadastro e listagem de pessoas, com autenticação via tela de login.
 
 ---
 
-## 🎯 Objetivo do Repositório
-Centralizar todos os exercícios práticos da disciplina, para fins de estudo, acompanhamento e evolução no desenvolvimento **Full Stack**.
+## 🛠️ Funcionalidades
+- Modelo **Pessoa**, contendo:
+  - Nome
+  - CPF
+  - E-mail
+  - Telefone
+  - Data de nascimento
+  - RG
+  - Endereço
+  - Bairro
+- Registro do modelo no **Django Admin**
+- **Tela de login** com autenticação
+- Impressão de usuário e senha no terminal para fins de teste
+- **View + Template** para exibir a lista de pessoas cadastradas
+- Layout responsivo com **Bootstrap**
+
+---
+
+## 🚀 Como executar
+1. Clonar o repositório:
+   ```bash
+   git clone https://github.com/GabrielHolandaCosta/FullStack-Academy-UNINASSAU.git
+   cd FullStack-Academy-UNINASSAU/ex02 07-09-2025
