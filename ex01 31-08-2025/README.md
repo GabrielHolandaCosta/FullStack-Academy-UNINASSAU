@@ -1,41 +1,31 @@
-# FullStack Academy - UNINASSAU
+# Exercício 01 - Telas de Autenticação e Erros (Django + Bootstrap)
 
-Repositório criado para armazenar os exercícios e projetos desenvolvidos durante a disciplina de **Full Stack Development (UNINASSAU)**.
-
-Aqui você encontrará a evolução dos estudos em **Frontend (HTML, CSS, JavaScript, Bootstrap)** e **Backend (Python, Django)**.
-
----
-
-## 📂 Estrutura de Exercícios
-
-- **ex01 31-08-2025** → Telas de autenticação e páginas de erro com Django + Bootstrap  
-  - Login  
-  - Logout  
-  - Recuperar senha  
-  - Alterar senha  
-  - Cadastro  
-  - Perfil  
-  - Home  
-  - Página de erro 404 (não encontrada)  
-  - Página de erro 403 (não permitida)  
-  - Página de erro 500 (erro interno no servidor)  
-
-- **ex02 07-09-2025** → CRUD simples com Django + Bootstrap  
-  - Modelo `Pessoa` (Nome, CPF, E-mail, Telefone, Data de Nascimento, RG, Endereço, Bairro)  
-  - Registro no Admin  
-  - Tela de login (reaproveitada do ex01)  
-  - Listagem de pessoas no template com Bootstrap  
+📅 **Entrega:** 31/08/2025 até às 23h59  
+📚 Exercício prático da disciplina de Full Stack Development (UNINASSAU).
 
 ---
 
-## 🚀 Tecnologias utilizadas
-- Python 3.x  
-- Django  
-- Bootstrap  
-- HTML, CSS e JavaScript  
-- Git e GitHub  
+## 📌 Descrição
+O objetivo deste exercício foi desenvolver diversas telas em **Django** com estilização em **Bootstrap**, cobrindo autenticação de usuário e páginas de erro personalizadas.
 
 ---
 
-## 🎯 Objetivo do Repositório
-Centralizar todos os exercícios práticos da disciplina, para fins de estudo, acompanhamento e evolução no desenvolvimento **Full Stack**.
+## 🛠️ Funcionalidades
+1. **Tela de Login** com Bootstrap  
+2. **Tela de Logout**  
+3. **Tela de Recuperar Senha**  
+4. **Tela de Alterar Senha**  
+5. **Tela de Cadastro**  
+6. **Tela de Perfil**  
+7. **Tela Home**  
+8. **Página 404** - Não encontrada  
+9. **Página 403** - Acesso não permitido  
+10. **Página 500** - Erro no servidor  
+
+---
+
+## 🚀 Como executar
+1. Clonar o repositório:
+   ```bash
+   git clone https://github.com/GabrielHolandaCosta/FullStack-Academy-UNINASSAU.git
+   cd FullStack-Academy-UNINASSAU/ex01 31-08-2025
